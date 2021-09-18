@@ -13,10 +13,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/housepower/olap2018/util"
+	"github.com/wuyazi/olap2018/util"
 
+	_ "github.com/ClickHouse/clickhouse-go"
 	json "github.com/json-iterator/go"
-	_ "github.com/kshvakov/clickhouse"
 	"github.com/satori/go.uuid"
 )
 
